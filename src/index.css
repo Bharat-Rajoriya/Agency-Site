@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+body,html{
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: "Noto Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #111;
+}
+
+.containerd{
+    display: flex;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+.span-txt{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: normal;
+}
+
+button{
+    cursor: pointer;
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 16px;
+    padding: 8px 8px 8px 20px;
+    border: 1px solid black;
+    border-radius: 500px;
+    align-items: center;
+    font-weight: 600;
+}
+
+button:hover{
+    flex-direction: row-reverse;
+    padding: 8px 20px 8px 8px;
+    background-color: white;
+    color: black;
+}
