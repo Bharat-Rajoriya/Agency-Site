@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <div className="flex h-screen justify-center items-center flex-col sm:gap-6 gap-4 ">
         <div className="absolute bg-linear-to-r from-sky-100 via-white to-amber-100 w-full h-screen rounded-full blur-[180px] -z-10"> </div>
-        <h1 className="text-8xl text-center filter: blur(0px); opacity: 1; tracking-tighter max-w-5xl ">
+        <h1 className="text-8xl text-center filter: blur(0px); opacity: 1; tracking-tighter max-w-5xl font-semibold ">
             Building bold brands with <span className="span-txt">thoughtful design</span>
         </h1>
         <p className="max-w-152.5 text-gray-800">
