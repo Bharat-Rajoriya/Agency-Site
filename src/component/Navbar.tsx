@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex justify-end gap-2 items-center min-w-60">
         <Link to='singin'> <button className="py-2! px-4!">Sign In</button> </Link>
         <Link to='singup'> <button className="py-2! px-4!">Sign Up</button> </Link>
-          <div className="flex hover:rotate-180 transition-all">
+          <div className="flex hover:rotate-180 transition-all cursor-pointer">
             {theme?
           <SunDim color="#000" size={30} 
             onClick={()=>{if(theme === true)
