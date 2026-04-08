@@ -1,6 +1,6 @@
-import CtaBtnBreaker from "../component/CtaBtnBreaker"
 import HeroSection from "../component/Home Page/HeroSection"
 import HighlightSection from "../component/Home Page/HighlightSection"
+import ServicesHome from "../component/Home Page/ServicesHome"
 
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <HeroSection></HeroSection>
       <HighlightSection></HighlightSection>
-      <CtaBtnBreaker></CtaBtnBreaker>
+      <ServicesHome></ServicesHome>
     </div>
   )
 }
