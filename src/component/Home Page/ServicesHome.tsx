@@ -1,4 +1,4 @@
-import { SwatchBook } from "lucide-react"
+import { SwatchBook, Image, WandSparkles, ChevronsLeftRightEllipsis, ChartColumn } from "lucide-react"
 import CtaBtnBreaker from "../CtaBtnBreaker"
 
 
@@ -16,19 +16,19 @@ const ServicesHome = () => {
                         <h3 className="text-purple-500! text-2xl font-semibold tracking-tighter">Brand <br/>Strategy</h3>
                     </div>
                     <div className="flex flex-col gap-8 h-full p-10 bg-cyan-100 text-cyan-500 rounded-2xl">
-                        <SwatchBook size={35}/>
+                        <Image size={35}/>
                         <h3 className="text-cyan-500! text-2xl font-semibold tracking-tighter">Digital<br/>Marketing</h3>
                     </div>
                     <div className="flex flex-col gap-8 h-full p-10 bg-orange-100 text-orange-500 rounded-2xl">
-                        <SwatchBook size={35}/>
+                        <WandSparkles size={35}/>
                         <h3 className="text-orange-500! text-2xl font-semibold tracking-tighter">UI/UX<br/>Design</h3>
                     </div>
                     <div className="flex flex-col gap-8 h-full p-10 bg-green-100 text-green-500 rounded-2xl">
-                        <SwatchBook size={35}/>
+                        <ChartColumn size={35}/>
                         <h3 className="text-green-500! text-2xl font-semibold tracking-tighter">Analytics &<br/>Reporting</h3>
                     </div>
                     <div className="flex flex-col gap-8 h-full p-10 bg-red-100 text-red-500 rounded-2xl">
-                        <SwatchBook size={35}/>
+                        <ChevronsLeftRightEllipsis size={35}/>
                         <h3 className="text-red-500! text-2xl font-semibold tracking-tighter">Web<br/>Development</h3>
                     </div>
                 </div>
