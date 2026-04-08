@@ -9,8 +9,9 @@ import Avatar4 from "../../assets/images/Home-page/HeroSec/avatar_4.jpg"
 
 const HeroSection = () => {
   return (
-    <div className="containerd h-[90vh] justify-center items-center flex-col sm:gap-6 gap-4 before:bg-linear-to-r before:from-sky-100 before:via-white before:to-amber-100 before:blur-3xl">
-        <h1 className="text-8xl text-center font-semibold filter: blur(0px); opacity: 1; tracking-tighter max-w-5xl ">
+    <div className="containerd h-screen justify-center items-center flex-col sm:gap-6 gap-4 relative overflow-hidden">
+        <div className="absolute bg-linear-to-r from-sky-100 via-white to-amber-100 w-full h-screen rounded-full blur-[180px] -z-10"> </div>
+        <h1 className="text-8xl text-center filter: blur(0px); opacity: 1; tracking-tighter max-w-5xl ">
             Building bold brands with <span className="span-txt">thoughtful design</span>
         </h1>
         <p className="max-w-152.5 text-gray-800">
