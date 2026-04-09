@@ -2,7 +2,8 @@ import HeroSection from "../component/Home Page/HeroSection"
 import HighlightSection from "../component/Home Page/HighlightSection"
 import ServicesHome from "../component/Home Page/ServicesHome"
 import MarqueeSlider from "../component/Home Page/MarqueeSlider"
-import WordSection from "../component/Home Page/WordSection"
+import WorkSection from "../component/Home Page/WorkSection"
+import TeamSection from "../component/Home Page/TeamSection"
 
 
 const Home = () => {
@@ -12,7 +13,8 @@ const Home = () => {
       <MarqueeSlider></MarqueeSlider>
       <HighlightSection></HighlightSection>
       <ServicesHome></ServicesHome>
-      <WordSection></WordSection>
+      <WorkSection></WorkSection>
+      <TeamSection></TeamSection>
     </div>
   )
 }

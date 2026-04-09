@@ -5,7 +5,7 @@ import CardImg3 from '../../assets/images/Home-page/Work/online_img_3.jpg'
 import CardImg4 from '../../assets/images/Home-page/Work/online_img_4.jpg'
 
 
-const WordSection = () => {
+const WorkSection = () => {
 
     const workData = [
         {
@@ -52,4 +52,4 @@ const WordSection = () => {
   )
 }
 
-export default WordSection
+export default WorkSection

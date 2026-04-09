@@ -17,7 +17,7 @@ const WorkCardSection = ({ image, title, tag1, tag2 }: WorkCardSectionProps) => 
             </div>
         </div>
         <div className="flex flex-col gap-4">
-            <h3 className="font-semibold text-2xl">{title}</h3>
+            <h3 className="font-semibold text-2xl tracking-tight">{title}</h3>
             <div className="flex gap-3">
                 <h5 className="text-sm border border-gray-400 text-gray-400 w-fit py-1.5 px-4 rounded-full hover:bg-black hover:text-white!">{tag1}</h5>
                 <h5 className="text-sm border border-gray-400 text-gray-400 w-fit py-1.5 px-4 rounded-full hover:bg-black hover:text-white! ">{tag2}</h5>
