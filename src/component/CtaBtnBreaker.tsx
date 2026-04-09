@@ -9,8 +9,8 @@ const CtaBtnBreaker = () => {
             <h3 className="text-2xl text-white!">Start Your Creative Journey with Us!</h3>
         </div>
         <div className="flex gap-5">
-        <Link to='/'><button className="btn2">Let's Collaborate <ArrowRight size={30} color="#fff" strokeWidth={3} className="p-1 bg-black rounded-full -rotate-45 border transition-all! " /></button></Link>
-        <Link to='/'><button >Get Started <ArrowRight size={30} color="#000" strokeWidth={3} className="p-1 bg-white rounded-full -rotate-45 border transition-all! " /></button></Link>
+        <Link to='/'><button className="btn2">Let's Collaborate <ArrowRight size={30} color="#fff" strokeWidth={3} className="p-1 bg-black rounded-full -rotate-45 border transition-all! svg-arrow" /></button></Link>
+        <Link to='/'><button >Get Started <ArrowRight size={30} color="#000" strokeWidth={3} className="p-1 bg-white rounded-full -rotate-45 border transition-all! svg-arrow" /></button></Link>
         </div>
     </div>
   )

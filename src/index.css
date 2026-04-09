@@ -10,6 +10,10 @@
   border: 1px solid var(--color-gray-300)
 }
 
+*{
+    transition: all 0.3s ease-out;
+}
+
 body,html{
     overflow-x: hidden;
     max-width: 1350px;
