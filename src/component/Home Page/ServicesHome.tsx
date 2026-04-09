@@ -4,7 +4,7 @@ import CtaBtnBreaker from "../CtaBtnBreaker"
 
 const ServicesHome = () => {
   return (
-    <div className="containerd flex-col gap-12 h-screen">
+    <div className="containerd flex-col gap-12 h-screen" id="services">
         <div className="flex flex-col justify-center items-center gap-10 lg:gap-16 ">
             <h2 className="text-5xl font-semibold tracking-tight max-w-106.25 text-center" >
                 Where innovation meets <span className="span-txt">aesthetics</span>
