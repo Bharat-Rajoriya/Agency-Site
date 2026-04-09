@@ -38,10 +38,10 @@ const WordSection = () => {
     <div className="containerd w-full flex-col items-center justify-center py-20 gap-10">
         <h2 className="text-5xl text-center max-w-167.5 tracking-tight font-semibold">How we transformed a small business’s <span className="span-txt">online presence</span></h2>
         
-        <div className="flex flex-wrap gap-y-10 ">
+        <div className="flex flex-wrap gap-10 justify-between ">
             {workData.map((elem,idx) =>{
             return(
-                <div key={idx} className="flex-wrap w-[49%]">
+                <div key={idx} className="flex-wrap w-[48%]">
                     <WorkCardSection image={elem.image} title={elem.title} tag1={elem.tag1} tag2={elem.tag2} />
                 </div>
             )
