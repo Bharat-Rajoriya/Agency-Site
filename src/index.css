@@ -11,7 +11,11 @@
 }
 
 *{
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+button:hover svg{
+    rotate: 0deg;
 }
 
 body,html{
