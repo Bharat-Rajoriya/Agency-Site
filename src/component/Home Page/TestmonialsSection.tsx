@@ -3,7 +3,7 @@ import TestimonialsImg from '../../assets/images/Home-page/Testimonials/creativi
 const TestmonialsSection = () => {
   return (
     <div id="team" className="containerd  flex-col justify-center items-center gap-10 md:gap-20 py-20" >
-        <h2 className="text-5xl text-center tracking-tight font-semibold w-167.5">What our satisfied customers are saying<span className="span-txt">about us</span></h2>
+        <h2 className="text-5xl text-center tracking-tight font-semibold w-167.5">What our satisfied customers are saying <span className="span-txt">about us</span></h2>
 
         <div className='containerd flex-col gap-6'>
             <div className='flex flex-col xl:flex xl:flex-row gap-6'>
@@ -22,7 +22,7 @@ const TestmonialsSection = () => {
                         <span className='uppercase text-sm font-medium text-black/60'>Facts & numbers</span>
                     </div>
                     <div className='flex flex-col gap-1'>
-                        <h2 className='text-7xl font-medium text-black'>91%</h2>
+                        <h2 className='text-7xl font-medium text-black tracking-tighter'>91%</h2>
                         <h3 className='text-2xl'>Clients recommend our design services.</h3>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const TestmonialsSection = () => {
                         <h2 className='text-2xl tracking-tight font-medium text-white! leading-7'>Their creativity and attention to detail transformed our brand completely!</h2>
                     </div>
                     <div>
-                        <img src={TestimonialsImg} alt="" />
+                        <img src={TestimonialsImg} alt="Client Image" />
                     </div>
                 </div>
                 <div className='p-8 gap-24 rounded-2xl flex flex-col relative object-cover bg-center h-full w-full bg-cover bg-no-repeat bg-gray-200'>

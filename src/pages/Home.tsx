@@ -5,6 +5,7 @@ import MarqueeSlider from "../component/Home Page/MarqueeSlider"
 import WorkSection from "../component/Home Page/WorkSection"
 import TeamSection from "../component/Home Page/TeamSection"
 import TestmonialsSection from "../component/Home Page/TestmonialsSection"
+import PricingSection from "../component/Home Page/PricingSection"
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <WorkSection></WorkSection>
       <TeamSection></TeamSection>
       <TestmonialsSection/>
+      <PricingSection></PricingSection>
     </div>
   )
 }

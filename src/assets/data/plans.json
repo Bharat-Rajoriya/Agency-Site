@@ -1,0 +1,46 @@
+[
+  {
+    "id": "starter",
+    "name": "Starter",
+    "description": "For companies who need design support. One request at a time",
+    "price": 2500,
+    "billing": "month",
+    "cta": "Let's Collaborate",
+    "features": [
+      "Design Updates Every 2 Days",
+      "Mid-level Designer",
+      "SEO optimization",
+      "Monthly analytics",
+      "2x Calls Per Month",
+      "License free assets"
+    ],
+      "theme": {
+        "bg": "#fdc70078",
+        "text": "#000",
+        "buttonBg": "#fff",
+        "buttonText": "#000"
+      }
+  },
+  {
+    "id": "pro",
+    "name": "Pro",
+    "description": "2x the speed. Great for an MVP, Web App or complex problem",
+    "price": 3800,
+    "billing": "month",
+    "cta": "Let's Collaborate",
+    "features": [
+      "Design Updates Daily",
+      "Senior-level Designer",
+      "AI Advisory Framework",
+      "Full-service Creative Team",
+      "4x Calls Per Month",
+      "License free assets"
+    ],
+    "theme": {
+      "bg": "linear-gradient(135deg, #4F2DFF, #6C4BFF)",
+      "text": "#fff",
+      "buttonBg": "#fff",
+      "buttonText": "#000"
+    }
+  }
+]
