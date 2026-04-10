@@ -28,3 +28,7 @@
   filter: grayscale(100%);
 
 }
+
+.bg-custom-img{
+  background-image: url(../images/Home-page/Testimonials/customer_bg_img.jpg);
+}
