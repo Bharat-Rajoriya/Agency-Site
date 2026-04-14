@@ -2,7 +2,7 @@ import TestimonialsImg from '../../assets/images/Home-page/Testimonials/creativi
 
 const TestmonialsSection = () => {
   return (
-    <div id="team" className="containerd  flex-col justify-center items-center gap-10 md:gap-20 py-20" >
+    <div className="containerd  flex-col justify-center items-center gap-10 md:gap-20 py-20" >
         <h2 className="text-5xl text-center tracking-tight font-semibold w-167.5">What our satisfied customers are saying <span className="span-txt">about us</span></h2>
 
         <div className='containerd flex-col gap-6'>

@@ -6,6 +6,7 @@ import WorkSection from "../component/Home Page/WorkSection"
 import TeamSection from "../component/Home Page/TeamSection"
 import TestmonialsSection from "../component/Home Page/TestmonialsSection"
 import PricingSection from "../component/Home Page/PricingSection"
+import FaqSection from "../component/Home Page/FaqSection"
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <TeamSection></TeamSection>
       <TestmonialsSection/>
       <PricingSection></PricingSection>
+      <FaqSection></FaqSection>
     </div>
   )
 }
